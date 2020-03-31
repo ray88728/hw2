@@ -42,6 +42,7 @@ int main(){
         wait(0.1);
     }
 
+    frequency = frequency*97/100;    
     while(1){
         if( Switch == 0 ){
             redLED = 1;
