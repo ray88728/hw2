@@ -58,10 +58,10 @@ int main(){
             display  = 0x00;
             redLED = 0;
             greenLED = 1;
-          for( j=0; j<2; j+=0.05 ){
-                Aout = 0.5 + 0.5*sin(j*3.14159);
-                wait(1./frequency/40);
-            }
+        }
+        for( j=0; j<2; j+=0.05 ){
+            Aout = 0.5 + 0.5*sin(j*3.14159);
+            wait(1./frequency/40);
         }
     }
 }
