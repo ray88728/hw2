@@ -55,7 +55,7 @@ int main(){
             wait(1.0);
         }
         if( Switch == 1 ){
-            display  = 0xFF;
+            display  = 0x00;
             redLED = 0;
             greenLED = 1;
           for( j=0; j<2; j+=0.05 ){
